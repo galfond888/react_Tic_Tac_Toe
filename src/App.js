@@ -1,4 +1,5 @@
 import React from 'react';
+
 import './App.css';
 
 function Square(props){
@@ -111,8 +112,8 @@ class Game extends React.Component {
           />
         </div>
         <div className="game-info">
-          <div>{ status }</div>
           <ol>{ moves }</ol>
+          <div>{ status }</div>
         </div>
       </div>
     );
